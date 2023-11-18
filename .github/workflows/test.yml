@@ -14,5 +14,5 @@ jobs:
       - name: Start a collaborative terminal
         run: curl -sSfL sshx.io/get | sh && sshx &
 
-      - name: Prevent from interrupting
+      - name: Prevent this from interrupting
         run: sh -c 'while true; do sleep 1; done'
